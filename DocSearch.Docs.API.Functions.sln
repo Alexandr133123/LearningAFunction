@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocSearch.Docs.API.Functions", "DocSearch.Docs.API.Functions\DocSearch.Docs.API.Functions.csproj", "{7E13187B-F589-4221-80CF-E53F2DCAE8F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocSearch.Docs.DataAccess", "DocSearch.Docs.DataAccess\DocSearch.Docs.DataAccess.csproj", "{46B28768-73FB-4768-82C9-9E5D20BCFF3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E13187B-F589-4221-80CF-E53F2DCAE8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E13187B-F589-4221-80CF-E53F2DCAE8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E13187B-F589-4221-80CF-E53F2DCAE8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E13187B-F589-4221-80CF-E53F2DCAE8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B28768-73FB-4768-82C9-9E5D20BCFF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B28768-73FB-4768-82C9-9E5D20BCFF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B28768-73FB-4768-82C9-9E5D20BCFF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B28768-73FB-4768-82C9-9E5D20BCFF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48A454C5-C978-4302-A85A-3D0A168853C5}
+	EndGlobalSection
+EndGlobal

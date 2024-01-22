@@ -17,7 +17,21 @@ namespace DocSearch.Docs.API.Functions
         {
             var configuration = builder.GetContext().Configuration;
 
-            builder.Services.AddDataAccessServices(configuration);            
+            builder.Services.AddDataAccessServices(configuration);
+
+            builder.AddGraphQLFunction(b =>
+            {
+                b.AddQueryType<DoctorsQuery>()
+                    .RegisterDbContext<DoctorsDbContext>(DbContextKind.Synchronized)
+                    .AddProjections()
+                    .AddFiltering()
+                    .AddSorting();
+
+                b.AddMutationConventions();
+
+                b.AddMutationType<DoctorsMutation>()
+                    .RegisterDbContext<DoctorsDbContext>(DbContextKind.Synchronized);
+            });
         }
     }
 }
